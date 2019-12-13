@@ -4,7 +4,7 @@
     <ProjectGuid>{B6848AFB-FC2C-49B5-B79C-5BF5F08BC86D}</ProjectGuid>
     <CodeAnalysisRuleSet>../DFC.Digital.CodeAnalysis.ruleset</CodeAnalysisRuleSet>
     <LangVersion>latest</LangVersion>
-    <Version>1.0.5</Version>
+    <Version>1.0.6</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>Contains logging for DFC</Description>
   </PropertyGroup>

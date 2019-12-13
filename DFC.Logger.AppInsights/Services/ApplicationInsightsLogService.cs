@@ -1,5 +1,4 @@
-﻿using DFC.App.CareerPath.Common.Contracts;
-using DFC.Logger.AppInsights.Constants;
+﻿using DFC.Logger.AppInsights.Constants;
 using DFC.Logger.AppInsights.Contracts;
 using Microsoft.ApplicationInsights;
 using Microsoft.ApplicationInsights.DataContracts;
