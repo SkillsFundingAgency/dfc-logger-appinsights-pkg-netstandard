@@ -1,5 +1,4 @@
-﻿using DFC.App.CareerPath.Common.Contracts;
-using DFC.Logger.AppInsights.Contracts;
+﻿using DFC.Logger.AppInsights.Contracts;
 using DFC.Logger.AppInsights.CorrelationIdProviders;
 using DFC.Logger.AppInsights.Services;
 using Microsoft.ApplicationInsights.AspNetCore.Extensions;

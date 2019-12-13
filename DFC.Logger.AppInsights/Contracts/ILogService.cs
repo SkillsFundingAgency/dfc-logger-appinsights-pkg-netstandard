@@ -1,4 +1,4 @@
-﻿namespace DFC.App.CareerPath.Common.Contracts
+﻿namespace DFC.Logger.AppInsights.Contracts
 {
     public interface ILogService
     {
