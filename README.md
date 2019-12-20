@@ -2,4 +2,4 @@
 
 ## Introduction
 
-An introduction to the project goes here!
+Contains common services such as logging
