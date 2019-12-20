@@ -3,9 +3,11 @@ using DFC.Logger.AppInsights.CorrelationIdProviders;
 using DFC.Logger.AppInsights.Services;
 using Microsoft.ApplicationInsights.AspNetCore.Extensions;
 using Microsoft.Extensions.DependencyInjection;
+using System.Diagnostics.CodeAnalysis;
 
 namespace DFC.Logger.AppInsights.Extensions
 {
+    [ExcludeFromCodeCoverage]
     public static class ServiceCollectionExtensions
     {
         public static IServiceCollection AddDFCLogging(this IServiceCollection services, string instrumentationKey)
