@@ -29,10 +29,14 @@ stages:
         SolutionBaseName: $(SolutionBaseName)
         BuildPlatform: 'any cpu'
         BuildConfiguration: 'release'
+        DotNetCoreVersion: 3.1.101
 
     - template: AzureDevOpsTemplates\Build\StepTemplates\dfc-dotnetcore-nuget-pack.yml@dfc-devops
       parameters:
         SolutionBaseName: $(SolutionBaseName)
+        BuildPlatform: 'any cpu'
+        BuildConfiguration: 'release'
+        DotNetCoreVersion: 3.1.101
 
 - stage: PublishPackage
   displayName: Publish Package to NuGet
